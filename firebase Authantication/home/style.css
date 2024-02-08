@@ -1,0 +1,25 @@
+body{
+    background-color: brown;
+}
+.container{
+    height: 80vh;
+    width: 20vw;
+    background-color: aqua;
+    border: 2px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 5% auto;
+}
+.container input{
+    padding: 10px;
+    margin: 10px;
+}
+
+.container button{
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
